@@ -1,0 +1,73 @@
+a:hover {
+  filter: opacity(0.5);
+}
+
+a {
+  transition: all 0.5s ease!important;
+}
+
+img {
+  /*stroke: red;*/
+}
+
+.btn {
+  color: var(--bs-blue);
+  font-size: 23px;
+}
+
+.btn:hover {
+  color: #006bff!important;
+}
+
+.card {
+  /*transition: all 0.5s ease;*/
+}
+
+.card:hover {
+  /*margin-bottom: 15px;*/
+}
+
+.review {
+  transition: all 0.5s ease!important;
+}
+
+.review:hover {
+  margin-top: -10px!important;
+}
+
+h5 {
+}
+
+#troll:hover::after {
+  content: ' (i think)';
+  /*background-image: url(https://cdn.discordapp.com/emojis/959494342999941161.webp?size=32&quality=lossless);*/
+  /*background-repeat: no-repeat;*/
+  /*background-position: right;*/
+}
+
+#troll:hover::before {
+  /*content: 'i think.';*/
+  content: 'test ';
+  color: transparent!important;
+  background-image: url(https://cdn.discordapp.com/emojis/959494342999941161.webp?size=32&quality=lossless);
+  background-repeat: no-repeat;
+}
+
+#troll::before, #troll::after {
+  transition: all 0.5s ease;
+}
+
+.socials:hover {
+  /*background-color: #9f9f9f;*/
+  /*border-radius: 5px;*/
+}
+
+.socials {
+  border-radius: 10px!important;
+}
+
+.socials:hover {
+  background-color: rgba(51,53,55,0.7);
+  color: rgba(255,255,255,0.78)!important;
+}
+
