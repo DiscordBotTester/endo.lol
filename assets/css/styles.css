@@ -72,3 +72,28 @@ h5 {
 }
 
 /* hi */
+
+
+
+h1, img, h2, h4, h5, p, a, i, div {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fade, slide;
+  animation-name: fade, slide;
+}
+@-webkit-keyframes fade {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fade {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes slide {
+  0% {margin-top:30px;}
+  100% {margin-bottom:default;}
+}
