@@ -1,13 +1,13 @@
+body {
+  background: linear-gradient(55deg, #1d1f22 0%, #1b1d1f 51%, #111314 85%);
+} 
+
 a:hover {
   filter: opacity(0.5);
 }
 
-a {
+* {
   transition: all 0.5s ease!important;
-}
-
-img {
-  /*stroke: red;*/
 }
 
 .btn {
@@ -19,47 +19,8 @@ img {
   color: #006bff!important;
 }
 
-.card {
-  /*transition: all 0.5s ease;*/
-}
-
-.card:hover {
-  /*margin-bottom: 15px;*/
-}
-
-.review {
-  transition: all 0.5s ease!important;
-}
-
-.review:hover {
+.review:hover, .price:hover {
   margin-top: -10px!important;
-}
-
-h5 {
-}
-
-#troll:hover::after {
-  content: ' (i think)';
-  /*background-image: url(https://cdn.discordapp.com/emojis/959494342999941161.webp?size=32&quality=lossless);*/
-  /*background-repeat: no-repeat;*/
-  /*background-position: right;*/
-}
-
-#troll:hover::before {
-  /*content: 'i think.';*/
-  content: 'test ';
-  color: transparent!important;
-  background-image: url(https://cdn.discordapp.com/emojis/959494342999941161.webp?size=32&quality=lossless);
-  background-repeat: no-repeat;
-}
-
-#troll::before, #troll::after {
-  transition: all 0.5s ease;
-}
-
-.socials:hover {
-  /*background-color: #9f9f9f;*/
-  /*border-radius: 5px;*/
 }
 
 .socials {
@@ -96,4 +57,26 @@ h1, img, h2, h4, h5, p, a, i, div {
 @keyframes slide {
   0% {margin-top:30px;}
   100% {margin-bottom:default;}
+}
+
+::-webkit-scrollbar{
+  width:10px;
+  background-color:#1d1f22;
+}
+::-webkit-scrollbar:horizontal{
+  height:10px;
+}
+::-webkit-scrollbar-track{
+  border:1px #1d1f22 solid;
+  border-radius:5px;
+}
+::-webkit-scrollbar-thumb{
+  background-color:#3a3c41;
+  border-radius:5px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color:#32343a;
+}
+::-webkit-scrollbar-thumb:active{
+  background-color:#303237;
 }
