@@ -1,6 +1,5 @@
 body {
-  background: linear-gradient(55deg, #1d1f22 0%, #1b1d1f 51%, #111314 85%)!important;
-  background-color: #1d1f22;
+  background: url(https://i.ibb.co/7k2sHm0/arrows.png);background-repeat: no-repeat;background-size: cover;
 } 
 
 a:hover {
