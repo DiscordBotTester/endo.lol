@@ -6,3 +6,6 @@
 a {
     transition: ease 0.5s all!important;
 }
+svg,.ion-social-twitter::before {
+    margin-top:7.5px;
+}
